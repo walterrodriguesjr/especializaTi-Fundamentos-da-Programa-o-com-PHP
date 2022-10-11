@@ -1,0 +1,42 @@
+01-conceitos do PHP
+
+
+01-apresentação curso de PHP 7 básico gratuito 
+-explanação 
+
+02-o que é o PHP? 
+-descrição da linguagem 
+
+03-diferença entre client e server 
+-client - front-end 
+-server - back-end
+
+04-a história do PHP 
+-ok 
+
+
+02-organizando 
+
+
+05-ferramentas para o curso de php 7 
+-virtual studio code 
+-docker ou xampp 
+-git 
+-cmder 
+
+06-ambiente completo PHP 7 com docker (laradock)
+-não usado 
+
+07-múltiplos projetos com docker (laradock) 
+-não usado 
+
+08-utilizando o wampserver(não recomendado) 
+-preparado o ambiente com xampp 
+
+
+03-PHP 7 básico 
+
+
+09-primeira aplicação com php 7 
+-realizando o primeiro echo com 'Hello World'
+-
