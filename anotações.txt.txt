@@ -39,4 +39,27 @@
 
 09-primeira aplicação com php 7 
 -realizando o primeiro echo com 'Hello World'
--
+
+10-tipos de impressões com PHP 
+-impressões com 'echo'
+-impressoes com 'print'
+-impressoes com 'print_r' (para impressões de array)
+-impressoes com 'var_dump' (usado para debug, retorna o tipo da variável junto)
+
+11-comentários no PHP 7 
+-comentário de linha //
+-comentário em bloco /* */ 
+
+12-tipos de variáveis no PHP 7 
+-variável permite armazenar dados em uma memória específica 
+-PHP é fracamente tipado, ou seja, não precisa passar o tipo de variavel para definir 
+
+13-constantes no PHP 7 
+-constante é um valor imutável 
+-preferencialmente sempre com caractere maiúsculo 
+
+
+04-Arrays no PHP 
+
+
+14-
