@@ -62,4 +62,40 @@
 04-Arrays no PHP 
 
 
-14-
+14-definições e formatos de arrays no php 
+-variável que recebe um conjunto de valores 
+-arrays podem conter dentro de si, outros arrays 
+
+15-manipulação de arrays no PHP (compact, is_array, in_array)
+-compact()
+    compacta várias variáveis dentro de um array 
+-is_array()
+    retorna se a variável é um array ou não (true ou false)
+-in_array()
+    verifica se determinada informação está contida no array 
+
+16-arrays no PHP (array_keys, array_values, count, array_merge)
+-array_keys()
+    retorna apenas as 'keys' de um array de chave e valor
+-array_values()
+    retorna apenas as 'values' de um array de chave e valor 
+-count()
+    retorna a quantidade de intens contidas em um array 
+-array_merge()
+    serve para juntar 2 arrays 
+
+17-arrays no PHP (array_pop, array_shift, unset, array_push, array_unshift, array_unique)
+-array_pop()
+    retira o último item do array 
+-array_shift()
+    retira o primeiro item do array 
+-unset()
+    seleciona qual item do array será deletado, usando parâmetro 
+-array_push()
+    adiciona um elemento no final do array 
+-array_unshift()
+    adiciona um elemento no início do array 
+-array_unique()
+    remove elementos duplicados do array
+
+
