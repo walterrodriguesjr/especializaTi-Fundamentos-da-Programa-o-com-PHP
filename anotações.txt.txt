@@ -106,4 +106,39 @@
 -sort()
     ordena de maneira crescente também as chaves (key) do array
 
+19-arrays no PHP (end, array_filter, array_map)
+-end()
+    retorna o último elemento do array 
+-array_filter()
+    possibilita definir uma lógica de retorno 
+-array_map()
+    mapeia todo conteudo do array, permitindo formatar e manipular 
+    os dados de um array 
+
+
+05-recursos do PHP 
+
+
+20-concatenação no PHP
+- o primeiro padrão de concatenação no PHP é usando o ponto ' . '
+-O segundo padrão de concatenação é usando entre as duplas "" e usar {$variavel}
+
+21-include vs require no PHP 
+-include, permite inclusões pontuais de conteudo de outro arquivo 
+-require, faz a mesma coisa praticamente, porem se ocorrer algum erro, e para a leitura do código 
+
+
+
+06-operadores condicionais no PHP 
+
+
+22-operadores condicionais no PHP (if)
+-Se atender certa condição, executa 
+
+23-operadores condicionais ELSE no PHP
+-se a condição do IF não atender, cai no ELSE 
+
+
+
+
 

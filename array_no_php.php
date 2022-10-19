@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $infoCompany = [
     'name' => 'EspecializaTi',
@@ -30,8 +30,8 @@ echo "</pre>";
 echo "<br>";
 
 $cart = [
-    'Arroz', 
-    'Sabão', 
+    'Arroz',
+    'Sabão',
     'Feijão',
     'Balinhas'
 ];
@@ -46,6 +46,16 @@ $item = [
     1 => 'Carro',
     2 => 'Moto',
     3 => 'Barco'
+];
+
+$idades = [
+    11, 13, 16, 22, 25
+];
+
+$nomes = [
+    'Walter',
+    'Pedro',
+    'Luiz'
 ];
 
 echo "<pre>";
@@ -122,11 +132,20 @@ var_dump($item);
 
 echo "<br>";
 
+var_dump(end($idades));
 
+echo "<br>";
 
+$idadeFiltrada = array_filter($idades, function ($age) {
+    return $age >= 22;
+});
 
+var_dump($idadeFiltrada);
 
+echo "<br>";
 
+$nomes = array_map(function ($nome) {
+    return strtoupper($nome);
+}, $nomes);
 
-
-
+var_dump($nomes);
