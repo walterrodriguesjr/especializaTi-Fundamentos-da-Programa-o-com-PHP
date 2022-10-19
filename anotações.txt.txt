@@ -98,4 +98,12 @@
 -array_unique()
     remove elementos duplicados do array
 
+18-arrays no PHP (arsort, asort, sort)
+-arsort()
+    ordena o array do menor para o maior (Z para A)
+-asort()
+    ordena o array do maior é o menor (A para Z)
+-sort()
+    ordena de maneira crescente também as chaves (key) do array
+
 

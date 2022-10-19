@@ -36,6 +36,18 @@ $cart = [
     'Balinhas'
 ];
 
+$loja = [
+    'camiseta',
+    'calça',
+    'meias'
+];
+
+$item = [
+    1 => 'Carro',
+    2 => 'Moto',
+    3 => 'Barco'
+];
+
 echo "<pre>";
 (var_dump($cart));
 echo "</pre>";
@@ -90,6 +102,25 @@ echo "<pre>";
 (var_dump($cart));
 echo "</pre>";
 
+echo "<br>";
+
+arsort($loja);
+
+var_dump($loja);
+
+echo "<br>";
+
+asort($loja);
+
+var_dump($loja);
+
+echo "<br>";
+
+sort($item);
+
+var_dump($item);
+
+echo "<br>";
 
 
 
