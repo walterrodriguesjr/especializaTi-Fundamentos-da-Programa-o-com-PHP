@@ -138,6 +138,20 @@
 23-operadores condicionais ELSE no PHP
 -se a condição do IF não atender, cai no ELSE 
 
+24-operador condicional ELSEIF no PHP 
+-é um intermediário entre o IF e o ELSE 
+
+25-operador condicional SWITCH no PHP 
+-faz verificações em blocos de cases
+
+
+07-Loops de repetição no PHP 
+
+
+26-loops de repetição no PHP FOR 
+-(para) sistema que: inicia a variavel em um valor, enquanto o valor for tanto, faça isso com valor 
+
+
 
 
 
