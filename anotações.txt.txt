@@ -151,7 +151,78 @@
 26-loops de repetição no PHP FOR 
 -(para) sistema que: inicia a variavel em um valor, enquanto o valor for tanto, faça isso com valor 
 
+27-loops de repetição no PHP FOREACH 
+-muito útil para trabalhar com interação de array 
 
+28-loops de repetição no PHP WHILE
+
+
+08-funções no PHP 7 
+
+
+29-declarar funções no php 7 
+-importante nunca usar echo dentro da função, deve se usar o return 
+
+30-funções com parâmetros no PHP 7 
+-retornando parametros nas funções 
+
+31-variáveis em funções no PHP e uso do global 
+-usando funções definidas dentro do escôpo de uma função externamente. E vice-versa 
+
+32-funções recursivas no PHP 7 
+-OK 
+
+
+09-manipulação de string 
+
+
+33-manipulação de strings no PHP (strtoupper, strtolower, ucfirst, ucwords)
+-strtoupper() - transforma tudo em maiúsculo
+-strtolower() = transforma tudo em minúsculo 
+-ucfirst() = transforma somente a primeira letra em maiúsculo
+-ucwords() = transforma todas em minúscula, menos a primeira 
+
+34-manipulação de string no PHP (explode, implode)
+-explode() - a partir de uma string, define um ponto onde separa em 2, transforma em array 
+-implode() - recebe um array como parametro, e transforma seus itens em uma string, sendo possivel definir o que irá os separar 
+
+35-manipulação de string no PHP (ltrim, rtrim, trim)
+-ltrim() - remove o espaço inicial de dentro de uma string 
+-rtrim() - remove o espaço final de dentro de uma string 
+-trim() - tira espaço de ambos 
+
+36-manipulação de string no PHP (str_replace, substr, strlen)
+-str_replace() - permite, especificar o que deve ser substitruido, em seguida, pelo que deve ser substituido, e por ultimo onde está o conteudo(variavel)
+-substr() - permite especificar, qual variavel será usada, em seguida a posição, de onde até a onde será retornado ao usuário (0, 3)
+-strlen() - conta quantos caracteres tem uma variavel 
+
+37-manipulação de string no PHP (isset, unset)
+-isset() - verifica se uma variável existe
+-unset() - apaga a variável informada da memória
+
+38-manipulação de string no PHP (date)
+-usa o método date()
+
+39-manipulação de string no PHP (phpinfo)
+-phpinfo() - avalia os recursos de ambiente disponivel, verifica os recursos de servidor 
+
+40-manipulação de string no PHP (md5, sha1, crypt, base64, hash)
+-são funções de cryptografia 
+-md5 - gera uma hash de 32 caracteres
+-sh1 - gera uma hash de 40 caracteres
+-crypt - criptograva usando uma segunda variável 
+-base64 - possibilita cryptografar e descryptografar algo 
+-hash - gera uma senha de 120 caracteres 
+
+
+10-operadores matemáticos no PHP 
+
+
+41-operadores aritméticos PHP 
+-operações de soma, subtração, multiplicação, divisão e resto 
+
+42-operadores de atribuição PHP 
+- são as operações usando: =, +=, -=, *=, /= 
 
 
 
