@@ -224,6 +224,22 @@
 42-operadores de atribuição PHP 
 - são as operações usando: =, +=, -=, *=, /= 
 
+43-operadores de atribuição PHP (incremento, decremento)
+- ++ após a variavel, incrementa após a declaração 
+- -- a mesma coisa 
+- ++ antes da declaração, incrementa antes 
+- -- mesma coisa 
+
+44-operadores lógicos PHP 
+-AND, OR, 
+-&&, ||, !
+
+45-operadores relacionais PHP 
+-são conhecidos como operadores de comparação 
+- == igual em valor 
+- === igual em valor e tipo
+- <> != diferente em valor
+- !== diferente em valor e tipo
 
 
 
