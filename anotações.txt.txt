@@ -242,4 +242,56 @@
 - !== diferente em valor e tipo
 
 
+11-entrada de dados no PHP 
+
+
+46-formulários HTML 
+-configurado um form com todoas as entradas de dados possíveis 
+
+47-requisição GET vs POST no PHP 
+-usando verbo $_GET para receber dados de um form 
+-usando verbo $_POST para receber dados de um form 
+
+48-pegar dados formulários com PHP 
+-listado na tela os dados inseridos no form, via POST 
+
+49-$_REQUEST no PHP 
+-REQUEST não tem um tipo de requisição específica, é universal 
+-um pouco mais lento 
+
+50-introdução a validação de formulários com PHP 
+-usando métodos e condicionais do PHP para validar (maneira simples) 
+
+51-uploads de arquivos no PHP 
+-ok 
+
+52-entrada de múltiplos arquivos 
+-o name é declarado como array 
+
+
+12-Sessions e Cookies no PHP 
+
+
+53-Sessões(SESSIONS) no PHP 
+-ok
+
+54-cookies no PHP 
+-ok 
+
+
+13-manipulação de arquivos e diretórios com PHP 
+
+
+55-manipulação de diretórios no PHP 
+-var_dump(is_dir('test'));
+    retorna true ou false se é um diretório ou não 
+
+-mkdir('diretorio_criado');
+    cria diretório 
+
+-rmdir('test');
+    remove determinados diretórios 
+
+
+
 

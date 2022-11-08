@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46-formulários HTML </title>
+</head>
+
+<body>
+
+    <form action="form.php" method="post">
+        <input type="text" name="nome" placeholder="Nome:">
+        <input type="password" name="senha" placeholder="Senha:">
+        <input type="email" name="email" placeholder="E-mail:">
+        <!-- <input type="text" name="nome"> -->
+        <label for="">
+            <input type="checkbox" name="concordo" id="concordo">
+        </label>
+
+        <label> 
+        <input type="radio" name="sexo" value="F"> Feminino
+        </label>
+
+        <label> 
+        <input type="radio" name="sexo" value="M"> Masculino
+        </label>
+
+        <select name="estado">
+            <option value="">Escolha um estado</option>
+            <option value="GO">Goiás</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+
+        <textarea name="descricao" placeholder="Descricao" cols="30" rows="10"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
