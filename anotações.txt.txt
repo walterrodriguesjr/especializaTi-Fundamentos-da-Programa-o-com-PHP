@@ -292,6 +292,19 @@
 -rmdir('test');
     remove determinados diretórios 
 
+56-manipulação de arquivos no PHP (touch, copy, rename, unlink, file_exists)
+-(touch('test.txt');
+    cria um arquivo txt 
+
+-rename('test.txt', 'test2.txt');
+    renomeia o arquivo em questão 
+
+-file_exists('test2.txt');
+    verifica se o arquivo em questão existe
+
+
+
+
 
 
 
