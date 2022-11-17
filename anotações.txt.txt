@@ -302,6 +302,22 @@
 -file_exists('test2.txt');
     verifica se o arquivo em questão existe
 
+57-manipulação de arquivos no PHP (FILE_PUT_CONTENTS, FILE_GET_CONTENTS)
+-ok 
+
+58-manipulação de arquivos no PHP (fopen, fclose, fwrite)
+-ok 
+
+59-manipulação de arquivos no PHP (fgets, feof)
+-ok
+
+
+14-MP3 Online com PHP 
+-PULADO TODAS AULAS DESTE MÓDULO
+
+
+
+
 
 
 
